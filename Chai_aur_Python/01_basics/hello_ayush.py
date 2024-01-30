@@ -6,3 +6,4 @@ def chai(n):
 chai("Green tea")
 
 chai_one("ginger tea")
+chai_two("mint tea")
