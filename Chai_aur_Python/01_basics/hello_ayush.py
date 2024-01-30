@@ -4,3 +4,5 @@ def chai(n):
   print(n)
 
 chai("Green tea")
+
+chai_one("ginger tea")
