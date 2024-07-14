@@ -10,3 +10,22 @@
 // var b = parseInt(prompt("Enter the value of b:"));
 
 // addTwoNumbers(a, b);
+
+const readline = require('readline');
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+rl.question('Enter the value of a: ', (a) => {
+  rl.question('Enter the value of b: ', (b) => {
+    addTwoNumbers(parseInt(a), parseInt(b));
+    rl.close();
+  });
+});
+
+function addTwoNumbers(a, b) {
+  var sum = a + b;
+  console.log("The sum of a & b is:", sum);
+}
