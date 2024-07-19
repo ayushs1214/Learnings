@@ -1,0 +1,1 @@
+/* Write an arrow function to check if a string contains a specific character & return a boolean value */
