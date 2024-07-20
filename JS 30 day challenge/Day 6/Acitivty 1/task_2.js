@@ -1,0 +1,1 @@
+/* Access the first & last elements of the array & log them to the console. */
