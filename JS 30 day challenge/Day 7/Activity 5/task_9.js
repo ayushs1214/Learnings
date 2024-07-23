@@ -1,0 +1,1 @@
+/* Use 'obect.keys' and 'object.values' methods to log all the keys & values of the book object. */
