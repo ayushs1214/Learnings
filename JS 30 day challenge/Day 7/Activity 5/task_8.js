@@ -1,0 +1,1 @@
+/* Use a 'for...in' loop to iterate over the properties of the book object & log each property & its value */
