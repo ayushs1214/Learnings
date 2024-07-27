@@ -26,3 +26,5 @@ console.log('Using Object.values:');
 Object.values(person).forEach(value => {
   console.log(value);
 });
+
+//Day 7 done//
